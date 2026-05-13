@@ -979,7 +979,7 @@ async function clipboard(text) {
             explosion.style.left = startX + "px";
             explosion.style.top = startY + "px";
             document.body.appendChild(explosion);
-            let sfx = new Audio("./explosion.mp3");
+            let sfx = new Audio("./explosion.wav");
             sfx.volume = 0.5;
             sfx.play();
 
@@ -1710,7 +1710,7 @@ async function clipboard(text) {
         }
     });
     function setup(logindata) {
-        let sfx = new Audio("/sfx/XPSTARTU2.wav");
+        let sfx = new Audio("/sfx/XPSTARTU2.mp3");
         sfx.volume = 0.5;
         sfx.play();
         if (!location.href.includes("mini.html")) {
